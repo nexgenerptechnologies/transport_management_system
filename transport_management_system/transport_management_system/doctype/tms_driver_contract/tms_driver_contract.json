@@ -15,7 +15,7 @@
    "fieldname": "driver",
    "fieldtype": "Link",
    "label": "Driver",
-   "options": "Employee",
+   "options": "Driver",
    "reqd": 1
   },
   {
