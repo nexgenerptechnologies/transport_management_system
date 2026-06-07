@@ -7,6 +7,7 @@ class TMSRoute(Document):
 	def validate(self):
 		self.calculate_route_metrics()
 		
+	@frappe.whitelist()
 	def geocode_location(self, location_name):
 		# If it's already a coordinate (e.g. 77.2,28.6)
 		if re.match(r'^-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?$', location_name):
