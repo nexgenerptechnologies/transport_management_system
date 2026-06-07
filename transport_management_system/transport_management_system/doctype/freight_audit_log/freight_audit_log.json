@@ -39,7 +39,7 @@
   }
  ],
  "doctype": "DocType",
- "module": "TMS",
+ "module": "Transport Management System",
  "engine": "InnoDB",
  "creation": "2026-06-01 10:00:00.000000",
  "modified": "2026-06-01 10:00:00.000000",
