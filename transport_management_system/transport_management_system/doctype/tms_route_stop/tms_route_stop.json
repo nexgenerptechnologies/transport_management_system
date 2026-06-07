@@ -23,17 +23,17 @@
    "in_list_view": 1
   },
   {
-   "fieldname": "time_window_start",
+   "in_list_view": 1, "fieldname": "time_window_start",
    "fieldtype": "Datetime",
    "label": "Time Window Start"
   },
   {
-   "fieldname": "time_window_end",
+   "in_list_view": 1, "fieldname": "time_window_end",
    "fieldtype": "Datetime",
    "label": "Time Window End"
   },
   {
-   "fieldname": "status",
+   "in_list_view": 1, "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
    "options": "Pending\nArrived\nCompleted\nSkipped",
@@ -42,7 +42,7 @@
  ],
  "doctype": "DocType",
  "module": "Transport Management System",
- "engine": "InnoDB",
+ "engine": "InnoDB", "editable_grid": 1,
  "creation": "2026-06-01 10:00:00.000000",
  "modified": "2026-06-01 10:00:00.000000"
 }

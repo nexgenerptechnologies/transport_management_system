@@ -17,14 +17,14 @@
    "in_list_view": 1
   },
   {
-   "fieldname": "description",
+   "in_list_view": 1, "fieldname": "description",
    "fieldtype": "Data",
    "label": "Description"
   }
  ],
  "doctype": "DocType",
  "module": "Transport Management System",
- "engine": "InnoDB",
+ "engine": "InnoDB", "editable_grid": 1,
  "creation": "2026-06-01 10:00:00.000000",
  "modified": "2026-06-01 10:00:00.000000"
 }
