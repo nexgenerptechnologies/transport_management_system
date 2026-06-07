@@ -1,5 +1,5 @@
 [project]
-name = "tms"
+name = "transport_management_system"
 authors = [
     { name = "NexGen ERP Technologies", email = "admin@example.com"}
 ]

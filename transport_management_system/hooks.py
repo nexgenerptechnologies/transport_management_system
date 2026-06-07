@@ -1,4 +1,4 @@
-app_name = "tms"
+app_name = "transport_management_system"
 app_title = "Transportation Management System (TMS) & Advanced Fleet Operations app for ERPNext"
 app_publisher = "NexGen ERP Technologies"
 app_description = "Transportation Management System (TMS) & Advanced Fleet Operations app for ERPNext"
