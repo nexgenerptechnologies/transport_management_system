@@ -16,7 +16,7 @@ frappe.ui.form.on('TMS Route', {
         let map_id = 'leaflet-map-' + frm.doc.name;
         
         if ($wrapper.find('#' + map_id).length === 0) {
-            $('<div id="' + map_id + '" style="height: 400px; width: 100%; border: 1px solid #d1d8dd; border-radius: 4px; margin-bottom: 15px; z-index: 1;"></div>').insertBefore($wrapper.find('.grid-wrapper'));
+            $('<div id="' + map_id + '" style="height: 400px; width: 100%; border: 1px solid #d1d8dd; border-radius: 4px; margin-bottom: 15px; z-index: 1;"></div>').prependTo($wrapper);
         }
         
         frappe.require([
