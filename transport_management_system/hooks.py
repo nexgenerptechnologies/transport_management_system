@@ -6,7 +6,7 @@ app_email = "admin@example.com"
 app_license = "mit"
 
 doc_events = {
-    'Driver': {
+    'TMS Driver': {
         'after_insert': 'transport_management_system.transport_management_system.events.driver.create_supplier_for_driver'
     }
 }

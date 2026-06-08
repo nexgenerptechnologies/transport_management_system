@@ -1,0 +1,47 @@
+{
+ "name": "TMS Driver",
+ "custom": 0,
+ "istable": 0,
+ "autoname": "field:full_name",
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "license_number",
+   "fieldtype": "Data",
+   "label": "License Number"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive",
+   "default": "Active"
+  }
+ ],
+ "doctype": "DocType",
+ "module": "Transport Management System",
+ "engine": "InnoDB",
+ "creation": "2026-06-01 10:00:00.000000",
+ "modified": "2026-06-01 10:00:00.000000",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "submit": 0
+  }
+ ]
+}
